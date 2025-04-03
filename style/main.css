@@ -43,6 +43,11 @@ a:hover {
   padding-left: 20px !important;
 }
 
+#info img {
+  display: block;
+  margin: auto;
+}
+
 #menu {
   text-align: center;
   padding: 40px;

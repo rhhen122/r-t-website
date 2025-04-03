@@ -35,3 +35,25 @@ a:hover {
     text-decoration: wavy underline;
     cursor: pointer;
 }
+tiny {
+    font-size: x-small !important;
+}
+sect {
+    text-align: left !important;
+    padding: 30px !important;
+    color: gray;
+}
+code {
+    background-color: gray;
+    padding: 5px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+codeblock {
+    margin: 20px;
+    border-radius: 2px;
+    color: black;
+    background-color: gray;
+    padding: 20px !important;
+    font-weight: bold;
+}

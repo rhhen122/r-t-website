@@ -8,7 +8,38 @@
         <img src="../media/ricer-tools-logo.png">
         <div id="info">
             <h3>R-T Wiki</h3>
+            <sect>0.1</sect>
             <p>This Wiki will go over how to compile Ricer-Tools from source. It will also follow how to make a custom theme with all required files, and it will go over the process of helping the project in its entirety</p>
+            <p>To Begin You will Need all the build dependencies for R-T</p>
+            <sect>1</sect>
+            <p>To Begin, Install R-T<tiny><a href="../install/">[1]</a></tiny> and compile the <code>setup.go</code> with the following:</p>
+            <br>
+            <p><codeblock>go build setup-"your distro".go</codeblock> <tiny>Please note to change <code>"your distro"</code> to your distro</tiny></p>
+            <br>
+            <p>Now run the compiled file with:</p>
+            <br>
+            <p><codeblock>./setup-"your distro"</codeblock></p>
+            <br>
+            <sect>1.1</sect>
+            <p>Now that you have installed the dependencies for R-T you can now compile the program</p>
+            <p>Begin by running with the following:</p>
+            <br>
+            <codeblock>python3 compile.py</codeblock><tiny>This will give you a prompt, return <code>zsh</code> if your using a zsh shell, or return <code>bash</code> if your using a bash shell.</tiny></p>
+            <br>
+            <sect>1.11</sect>
+            <p>Before we procede with the next bit you do have to change a config file. Begin by using a editor of you choice - in our case <code>vim</code> - and open the config file with the following:</p>
+            <br>
+            <codeblock>vim config.py</codeblock>
+            <br>
+            <br>
+            <p>Now change the <code>OS block to your os - eg. <code>mac</code> for MacOS and <code>linux</code> for Linux/GNU</code></p>
+            <sect>1.12</sect>
+            <p>Before we begin the next part we need to install the list of <code>User Repositories</code> into the Source Code.</p>
+            <p>Begin by starting Ricer-Tools with <code>r-t</code>. Now return d into the prompt. Enter in <code>ur-list.py</code> and return.</p>
+            <sect>1.2</sect>
+            <p>Now we do some health checks. Begin by running the command <code>r-t</code> to start up Ricer Tools. Now return d into the prompt. Now go to the main page of Ricer-Tools Website<tiny>[citation needed]</tiny> and click <code>User Repositories</code>.</p>
+            <p>Find a theme you like and check the support. Now take the ending section of the URL - eg. <code>https://rt.rhhen.xyz/ur/"rt/bbb/"</code> - and copy it - and then add <code>install.py</code> at the end - into the prompt and return.</p>
+            <p>The program will give you a warning saying if you want to procede and also all the files it may alter.</p>
         </div>
     </body>
 </html>
